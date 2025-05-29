@@ -1,0 +1,16 @@
+# Virtual env folders
+venv_*/
+
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data dumps (you’ll keep raw data locally)
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
