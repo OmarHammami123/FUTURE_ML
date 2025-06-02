@@ -1,6 +1,9 @@
 # Virtual env folders
 venv_*/
 
+# Environment variables
+.env
+
 # Bytecode
 __pycache__/
 *.py[cod]
@@ -8,7 +11,31 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data dumps (you’ll keep raw data locally)
+
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.model
+models/
+
+# Large files
+*.zip
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data dumps 
 data/
 
 # OS files
