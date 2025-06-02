@@ -41,3 +41,6 @@ data/
 # OS files
 .DS_Store
 Thumbs.db
+# Kaggle credentials
+kaggle.json
+*.kaggle/kaggle.json
